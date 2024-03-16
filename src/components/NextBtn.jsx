@@ -7,7 +7,7 @@ export default function NextBtn({ goToNextSong }) {
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       stroke="currentColor"
-      className="w-16 h-16 hover:bg-white hover:text-blue-700 hover:shadow-2xl rounded-full p-3 cursor-pointer transition-all duration-300">
+      className="w-16 h-16 hover:bg-white hover:text-blue-700 hover:shadow-2xl rounded-full p-3 cursor-pointer transition-all duration-300 text-[#acb8cc] mb-5">
       <path
         strokeLinecap="round"
         strokeLinejoin="round"

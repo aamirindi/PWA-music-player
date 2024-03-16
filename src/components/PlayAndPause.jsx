@@ -1,6 +1,6 @@
 export default function PlayAndPause({ isPaused, songRef, setIsPaused }) {
   return (
-    <>
+    <div className=" rounded-full border-solid border-8 shadow-2xl border-[#ffffff] mb-5">
       {isPaused ? (
         <svg
           onClick={() => {
@@ -8,11 +8,11 @@ export default function PlayAndPause({ isPaused, songRef, setIsPaused }) {
             setIsPaused(!isPaused);
           }}
           xmlns="http://www.w3.org/2000/svg"
-          fill="none"
+          fill="#ffffff"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-20 h-20 hover:bg-white hover:text-blue-700 hover:shadow-2xl rounded-full p-3 cursor-pointer transition-all duration-300 mt-5 font-bold">
+          className="w-20 h-20 rounded-full p-3 cursor-pointer transition-all duration-300 text-[#ffffff] font-bold shadow-sm">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -26,11 +26,11 @@ export default function PlayAndPause({ isPaused, songRef, setIsPaused }) {
             setIsPaused(!isPaused);
           }}
           xmlns="http://www.w3.org/2000/svg"
-          fill="none"
+          fill="#ffffff"
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="currentColor"
-          className="w-20 h-20 hover:bg-white hover:text-blue-700 hover:shadow-2xl rounded-full p-3 cursor-pointer transition-all duration-300 mt-5  font-bold">
+          className="w-20 h-20 rounded-full p-3 cursor-pointer transition-all duration-300 text-zinc-500 font-bold shadow-2xl">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -38,6 +38,6 @@ export default function PlayAndPause({ isPaused, songRef, setIsPaused }) {
           />
         </svg>
       )}
-    </>
+    </div>
   );
 }
