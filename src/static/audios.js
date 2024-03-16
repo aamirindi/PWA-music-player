@@ -51,6 +51,34 @@ const audios = [
     songName: "Solitude",
     songDesc: "Felsmann",
   },
+  {
+    img: "https://github.com/aamirindi/songs/blob/main/images/goku.gif?raw=true",
+    pic: pic,
+    src: "https://github.com/aamirindi/songs/blob/main/songs/song26.mp3?raw=true",
+    songName: "Hills",
+    songDesc: "The Weeknd",
+  },
+  {
+    img: "https://github.com/aamirindi/songs/blob/main/images/tokyo-ghoul.gif?raw=true",
+    pic: pic,
+    src: "https://github.com/aamirindi/songs/blob/main/songs/song31.mp3?raw=true",
+    songName: "Unravel",
+    songDesc: "Tokyo Ghoul",
+  },
+  {
+    img: "https://github.com/aamirindi/songs/blob/main/images/200w%20(1).gif?raw=true",
+    pic: pic,
+    src: "https://github.com/aamirindi/songs/blob/main/songs/song30.mp3?raw=true",
+    songName: "Yo Voy",
+    songDesc: "Zion",
+  },
+  {
+    img: "https://github.com/aamirindi/songs/blob/main/images/anime-gilr.gif?raw=true",
+    pic: pic,
+    src: "https://github.com/aamirindi/songs/blob/main/songs/song15.mp3?raw=true",
+    songName: "Substance",
+    songDesc: "Greedo",
+  },
 ];
 
 export default audios;

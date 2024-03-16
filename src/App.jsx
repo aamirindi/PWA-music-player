@@ -64,7 +64,7 @@ export default function App() {
               <img
                 src={currentSong.img}
                 alt=""
-                className="w-80 h-80 rounded-full select-none    absolute top-0 z-50"
+                className="w-80 h-80 rounded-full select-none absolute top-0 z-50"
               />
               <img
                 src={currentSong.img}
