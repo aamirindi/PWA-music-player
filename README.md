@@ -1,8 +1,18 @@
-# React + Vite
+# Live Demo : https://react-music-aamir.vercel.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple music player built with React.js, featuring audio playback controls and song timeline. Utilizes Tailwind CSS for styling.
 
-Currently, two official plugins are available:
+## Features
+- Play, pause, and skip tracks
+- Display song and progress timeline
+- Responsive design with Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+1. Clone the repository.
+2. Install dependencies with `npm install`.
+3. Run the project locally with `npm run dev`.
+4. Enjoy listening to tunes!
+
+## Technologies Used
+- React.js
+- Tailwind CSS
