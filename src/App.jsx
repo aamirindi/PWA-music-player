@@ -113,14 +113,14 @@ export default function App() {
           />
         </div>
         <div className="relative text-[#aab5c6] text-xl font-bold mt-5">
-          <p className="absolute left-5 top-12">{formatTime(songTimeLine)}</p>
+          <p className="absolute left-5 top-16">{formatTime(songTimeLine)}</p>
           <p className="absolute right-5 ">{durationFormatted}</p>
           <input
             value={songTimeLine}
             type="range"
             min={0}
             max={songRef.current?.duration}
-            className="w-[90%] my-8 appearance-none outline-none h-2 rounded-lg bg-[#d0d8e6] range-slider"
+            className="my-8 appearance-none outline-none bg-[#d0d8e6] range-slider"
             onChange={(e) => (songRef.current.currentTime = e.target.value)}
           />
         </div>

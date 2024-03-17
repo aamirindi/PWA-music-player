@@ -30,7 +30,7 @@ export default function PlayAndPause({ isPaused, songRef, setIsPaused }) {
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="currentColor"
-          className="w-20 h-20 rounded-full p-3 cursor-pointer transition-all duration-300 text-zinc-500 font-bold shadow-2xl">
+          className="w-20 h-20 rounded-full p-3 cursor-pointer transition-all duration-300 text-zinc-500 font-bold shadow-xl">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
