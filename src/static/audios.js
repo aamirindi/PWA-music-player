@@ -73,7 +73,7 @@ const audios = [
     songDesc: "Zion",
   },
   {
-    img: "https://github.com/aamirindi/songs/blob/main/images/anime-gilr.gif?raw=true",
+    img: "https://github.com/aamirindi/songs/blob/main/images/anime.gif?raw=true",
     pic: pic,
     src: "https://github.com/aamirindi/songs/blob/main/songs/song15.mp3?raw=true",
     songName: "Substance",
