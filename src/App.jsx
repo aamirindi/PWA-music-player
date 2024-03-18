@@ -40,6 +40,7 @@ export default function App() {
     const seconds = Math.floor(timeInSeconds % 60);
     return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
   };
+
   const goToNextSong = (value) => {
     const nextSongIndex = currentSongIndex + value;
     const firstSongIndex = 0;
@@ -87,6 +88,7 @@ export default function App() {
             </div>
           )}
         </div>
+
         <div className="flex flex-col justify-evenly items-end pt-32 ">
           <div className="flex flex-col justify-center items-center ">
             <PreBtn goToNextSong={goToNextSong} />
@@ -99,6 +101,7 @@ export default function App() {
             />
           </div>
         </div>
+
         <div className="text-4xl font-semibold text-[#71829e] font-['Poppins'] space-y-2  text-left ml-5 w-fit">
           <h1>{currentSong.songName}</h1>
           <p className="text-xl font-thin text-[#aab5c6]">
@@ -112,6 +115,7 @@ export default function App() {
             onTimeUpdate={() => setSongTimeLine(songRef.current.currentTime)}
           />
         </div>
+
         <div className="relative text-[#aab5c6] text-xl font-bold mt-5">
           <p className="absolute left-5 top-16">{formatTime(songTimeLine)}</p>
           <p className="absolute right-5 ">{durationFormatted}</p>
@@ -125,6 +129,7 @@ export default function App() {
           />
         </div>
       </div>
+
       <a
         href="https://github.com/aamirindi"
         target="_blank"
