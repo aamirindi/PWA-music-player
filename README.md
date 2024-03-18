@@ -1,7 +1,5 @@
 # (PWA) Music Player
-
-## Live Demo
-[Live Demo](https://react-music-aamir.vercel.app)
+# Live Demo : https://react-music-aamir.vercel.app
 
 ## Description
 React Music Player is a simple music player built with React.js, featuring audio playback controls and song timeline. It utilizes Tailwind CSS for styling and is also a Progressive Web App (PWA), allowing users to install and use it offline.
